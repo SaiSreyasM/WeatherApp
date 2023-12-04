@@ -66,7 +66,7 @@ function displayData(dataArray) {
         </div>
     </div>
 
-    // 2 nd 
+    
 
 
     <div class="w-100" id="bluec" style="border-radius: 15px;"> 
