@@ -1,0 +1,21 @@
+body{
+    background-color: #0B131E
+}
+
+.form-control::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: white;
+}
+
+#bluec{
+    background-color: #202B3B;
+}
+
+h1{
+    color: #F0F0F2;
+}
+
+
+#btnse{
+    color: #F0F0F2 ;
+    background-color: #202B3B;
+}
