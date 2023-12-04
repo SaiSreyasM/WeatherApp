@@ -7,15 +7,15 @@ function searchCity(){
 
     function displayData(dataArray){
 
-        name=dataArray.name
+        name=dataArray.name.toUpperCase()
         lat=dataArray.coord.lat
         long=dataArray.coord.lon
         temp=Math.floor(dataArray.main.temp-273.15) 
         fl=Math.floor(dataArray.main.feels_like-273.15)
         ws=Math.floor(dataArray.wind.speed*3.6)
         hm=dataArray.main.humidity
-        con=dataArray.weather[0].main
-        desc=dataArray.weather[0].description
+        con=dataArray.weather[0].main.toUpperCase()
+        desc=dataArray.weather[0].description.toUpperCase()
 
         
 
